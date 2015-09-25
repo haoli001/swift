@@ -16,6 +16,6 @@ extension User {
 
     @NSManaged var username: String?
     @NSManaged var password: String?
-    @NSManaged var num: NSNumber?
+    
 
 }

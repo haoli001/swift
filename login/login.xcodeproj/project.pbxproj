@@ -15,6 +15,8 @@
 		F63C55911BB451CD00DE66C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63C558F1BB451CD00DE66C3 /* LaunchScreen.storyboard */; };
 		F63C559C1BB451CD00DE66C3 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C559B1BB451CD00DE66C3 /* loginTests.swift */; };
 		F63C55A71BB451CD00DE66C3 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55A61BB451CD00DE66C3 /* loginUITests.swift */; };
+		F63C55BF1BB589DD00DE66C3 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55BD1BB589DD00DE66C3 /* User+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		F63C55C01BB589DD00DE66C3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55BE1BB589DD00DE66C3 /* User.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F63C55A21BB451CD00DE66C3 /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63C55A61BB451CD00DE66C3 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		F63C55A81BB451CD00DE66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63C55BD1BB589DD00DE66C3 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F63C55BE1BB589DD00DE66C3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				F63C558F1BB451CD00DE66C3 /* LaunchScreen.storyboard */,
 				F63C55921BB451CD00DE66C3 /* Info.plist */,
 				F63C558A1BB451CD00DE66C3 /* login.xcdatamodeld */,
+				F63C55BD1BB589DD00DE66C3 /* User+CoreDataProperties.swift */,
+				F63C55BE1BB589DD00DE66C3 /* User.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			files = (
 				F63C558C1BB451CD00DE66C3 /* login.xcdatamodeld in Sources */,
 				F63C55861BB451CD00DE66C3 /* ViewController.swift in Sources */,
+				F63C55BF1BB589DD00DE66C3 /* User+CoreDataProperties.swift in Sources */,
+				F63C55C01BB589DD00DE66C3 /* User.swift in Sources */,
 				F63C55841BB451CD00DE66C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
