@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  login
 //
-//  Created by 李昊 on 15/9/24.
+//  Created by 李昊 on 15/9/25.
 //  Copyright © 2015年 李昊. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -16,5 +16,6 @@ extension User {
 
     @NSManaged var username: String?
     @NSManaged var password: String?
+    @NSManaged var num: NSNumber?
 
 }
