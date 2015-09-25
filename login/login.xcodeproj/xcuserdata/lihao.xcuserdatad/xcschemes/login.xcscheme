@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6B6F8481BB147050044E396"
-               BuildableName = "log.app"
-               BlueprintName = "log"
-               ReferencedContainer = "container:log.xcodeproj">
+               BlueprintIdentifier = "F63C557F1BB451CD00DE66C3"
+               BuildableName = "login.app"
+               BlueprintName = "login"
+               ReferencedContainer = "container:login.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6B6F85C1BB147060044E396"
-               BuildableName = "logTests.xctest"
-               BlueprintName = "logTests"
-               ReferencedContainer = "container:log.xcodeproj">
+               BlueprintIdentifier = "F63C55961BB451CD00DE66C3"
+               BuildableName = "loginTests.xctest"
+               BlueprintName = "loginTests"
+               ReferencedContainer = "container:login.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6B6F8671BB147060044E396"
-               BuildableName = "logUITests.xctest"
-               BlueprintName = "logUITests"
-               ReferencedContainer = "container:log.xcodeproj">
+               BlueprintIdentifier = "F63C55A11BB451CD00DE66C3"
+               BuildableName = "loginUITests.xctest"
+               BlueprintName = "loginUITests"
+               ReferencedContainer = "container:login.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6B6F8481BB147050044E396"
-            BuildableName = "log.app"
-            BlueprintName = "log"
-            ReferencedContainer = "container:log.xcodeproj">
+            BlueprintIdentifier = "F63C557F1BB451CD00DE66C3"
+            BuildableName = "login.app"
+            BlueprintName = "login"
+            ReferencedContainer = "container:login.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6B6F8481BB147050044E396"
-            BuildableName = "log.app"
-            BlueprintName = "log"
-            ReferencedContainer = "container:log.xcodeproj">
+            BlueprintIdentifier = "F63C557F1BB451CD00DE66C3"
+            BuildableName = "login.app"
+            BlueprintName = "login"
+            ReferencedContainer = "container:login.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6B6F8481BB147050044E396"
-            BuildableName = "log.app"
-            BlueprintName = "log"
-            ReferencedContainer = "container:log.xcodeproj">
+            BlueprintIdentifier = "F63C557F1BB451CD00DE66C3"
+            BuildableName = "login.app"
+            BlueprintName = "login"
+            ReferencedContainer = "container:login.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

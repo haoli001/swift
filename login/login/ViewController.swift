@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  log
+//  login
 //
-//  Created by 李昊 on 15/9/22.
+//  Created by 李昊 on 15/9/24.
 //  Copyright © 2015年 李昊. All rights reserved.
 //
 

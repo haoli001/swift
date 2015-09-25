@@ -1,14 +1,14 @@
 //
-//  logUITests.swift
-//  logUITests
+//  loginUITests.swift
+//  loginUITests
 //
-//  Created by 李昊 on 15/9/22.
+//  Created by 李昊 on 15/9/24.
 //  Copyright © 2015年 李昊. All rights reserved.
 //
 
 import XCTest
 
-class logUITests: XCTestCase {
+class loginUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
