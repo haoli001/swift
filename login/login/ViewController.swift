@@ -15,6 +15,7 @@ class ViewController: UIViewController ,UITextFieldDelegate{
 
     @IBOutlet weak var login_button: UIButton!
     @IBOutlet weak var regist_button: UIButton!
+    var registViewControler:UIViewController!
     var tmp:Int!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +33,9 @@ class ViewController: UIViewController ,UITextFieldDelegate{
         u_password.secureTextEntry = true
         
         tmp=3;
-    
+        
+        registViewControler=storyboard?.instantiateViewControllerWithIdentifier("regist")
+        
     }
     
     func judge(h:String)->Bool{
@@ -112,37 +115,12 @@ class ViewController: UIViewController ,UITextFieldDelegate{
         u_password.resignFirstResponder()
     }
 
+    @IBAction func ToRegistView(sender: AnyObject) {
+        registViewControler.view.frame=self.view.frame
+        addChildViewController(registViewControler!)
+        let subview = registViewControler?.view
+        view.addSubview(subview!)
+    }
 }
 
-/*
-let app = UIApplication.sharedApplication().delegate as! AppDelegate
-let context = app.managedObjectContext
-let user = NSEntityDescription.insertNewObjectForEntityForName("User",inManagedObjectContext:context) as! User
-user.username = "admin"
-user.password = "1234"
 
-try!context.save()
-//
-let fetchRequest:NSFetchRequest = NSFetchRequest()
-fetchRequest.fetchLimit = 1 //限定查询结果的数量
-fetchRequest.fetchOffset = 0 //查询的偏移量
-
-//声明一个实体结构
-let entity:NSEntityDescription? = NSEntityDescription.entityForName("User",
-inManagedObjectContext: context)
-//设置数据请求的实体结构
-fetchRequest.entity = entity
-
-//设置查询条件
-let predicate = NSPredicate(format: "username= 'admin' ", "")
-fetchRequest.predicate = predicate
-
-//查询操作
-let fetchedObjects:[AnyObject]? = try!context.executeFetchRequest(fetchRequest)
-
-//遍历查询的结果
-for info:User in fetchedObjects as! [User]{
-print("username=\(info.username)")
-print("password=\(info.password)")
-}
-*/

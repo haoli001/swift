@@ -17,6 +17,7 @@
 		F63C55A71BB451CD00DE66C3 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55A61BB451CD00DE66C3 /* loginUITests.swift */; };
 		F63C55BF1BB589DD00DE66C3 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55BD1BB589DD00DE66C3 /* User+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
 		F63C55C01BB589DD00DE66C3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55BE1BB589DD00DE66C3 /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		F63C55C41BB644FA00DE66C3 /* registViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C55C31BB644FA00DE66C3 /* registViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F63C55A81BB451CD00DE66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F63C55BD1BB589DD00DE66C3 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F63C55BE1BB589DD00DE66C3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F63C55C31BB644FA00DE66C3 /* registViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F63C55831BB451CD00DE66C3 /* AppDelegate.swift */,
 				F63C55851BB451CD00DE66C3 /* ViewController.swift */,
 				F63C55871BB451CD00DE66C3 /* Main.storyboard */,
+				F63C55C31BB644FA00DE66C3 /* registViewController.swift */,
 				F63C558D1BB451CD00DE66C3 /* Assets.xcassets */,
 				F63C558F1BB451CD00DE66C3 /* LaunchScreen.storyboard */,
 				F63C55921BB451CD00DE66C3 /* Info.plist */,
@@ -271,6 +274,7 @@
 				F63C55861BB451CD00DE66C3 /* ViewController.swift in Sources */,
 				F63C55BF1BB589DD00DE66C3 /* User+CoreDataProperties.swift in Sources */,
 				F63C55C01BB589DD00DE66C3 /* User.swift in Sources */,
+				F63C55C41BB644FA00DE66C3 /* registViewController.swift in Sources */,
 				F63C55841BB451CD00DE66C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
