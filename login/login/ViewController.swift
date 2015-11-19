@@ -81,6 +81,7 @@ class ViewController: UIViewController ,UITextFieldDelegate{
     }
     func massagebox(titleS:String, messageS:String,flag:Bool){
         UIAlertView(title: titleS, message:messageS, delegate: self, cancelButtonTitle: "确定").show()
+        UIAlertController()
         if(flag){
         tmp=tmp-1
         }
